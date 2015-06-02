@@ -38,7 +38,7 @@ public class CalculoTest {
         instance.setNumero1(numero);
         int result=0;        
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        //fail("The test case is a prototype.");
     }
 
     /**
@@ -51,7 +51,7 @@ public class CalculoTest {
         Calculo instance = new Calculo();
         instance.setNumero2(numero);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        //fail("The test case is a prototype.");
     }
 
     /**
@@ -65,7 +65,7 @@ public class CalculoTest {
         String result = instance.getMensajeResultado();
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        //fail("The test case is a prototype.");
     }
 
     /**
@@ -79,7 +79,7 @@ public class CalculoTest {
         int result = instance.getNumero1();
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        //fail("The test case is a prototype.");
     }
 
     /**
@@ -93,7 +93,7 @@ public class CalculoTest {
         int result = instance.getNumero2();
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        //fail("The test case is a prototype.");
     }
 
     /**
@@ -102,14 +102,16 @@ public class CalculoTest {
     @Test
     public void testObtenerMCD() {
         System.out.println("obtenerMCD");
-        int num1 = 0;
-        int num2 = 0;
+        int num1 = 10;
+        int num2 = 20;
         Calculo instance = new Calculo();
-        int expResult = 0;
+        int expResult = 10;
         int result = instance.obtenerMCD(num1, num2);
-        assertEquals(expResult, result);
+        assertEquals(expResult, result, 0.0);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        //fail("The test case is a prototype.");
     }
     
 }
+
+       // assertEquals(expResult, result);
