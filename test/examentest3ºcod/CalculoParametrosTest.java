@@ -44,8 +44,10 @@ public class CalculoParametrosTest {
     }
 
     @Test
-    public void testMCDnumbersChecker() {
+    public void testObtenerMCD() {
         System.out.println("El maximo comun divisor es: " + res);
         assertEquals(res, calcu.obtenerMCD(calcu.getNumero1(), calcu.getNumero2()));
     }
 }
+
+//Terminado
